@@ -1,0 +1,16 @@
+body{
+
+    background-color: rgb(165, 231, 233);
+    line-height: 1.4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    }
+    h1{font-size: 2rem;
+        line-height: 1.3rem; /* espaciado entre las lineas del texto*/ 
+        }
+         p{
+             margin-bottom: 1.6em;
+            }
+
+

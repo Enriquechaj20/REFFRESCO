@@ -1,0 +1,73 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font: 1.2rem;
+    line-height: 1.4em;
+}
+
+h1{font-size: 2rem;
+line-height: 1.3rem; /* espaciado entre las lineas del texto*/ 
+}
+ p{
+     margin-bottom: 1.6em;
+
+ }
+.contenedor{
+    width: 75%;
+    max-width: 850;/*sera el maximo ancho que tendra los contenedores*/
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.logo-nav-contenedor{
+display: flex;
+justify-content: space-between; 
+align-items: center;
+}
+header a{
+    color:white ;
+text-decoration: none;
+}
+.navigator ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigator ul li{
+    display: inline-block;
+}
+
+.navigator ul li a{
+    padding: 0.5rem 1rem;
+    transition: all 0.7 linear;
+    border-radius: 5px;
+}
+.navigator ul li a:hover{
+    background:#4a4a4a ;
+}
+
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.2em;
+}
+.footer{
+    background-color:#f2f2f2;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+
+main{
+    padding-top: 7rem;
+}
+
+
